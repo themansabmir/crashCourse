@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: monospace;
+}
+
+header{
+text-align: center;
+display: flex;
+flex-direction: column;
+background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('header.jpg');
+background-size: cover;
+color:white;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+header h1{
+    
+    font-size: 5rem;
+    text-align: center;
+    margin:0 auto;
+}
+header span{
+    font-size: 25px;
+}
+
+header button{
+    font-size: 35px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+    position: relative;
+  top: 150px;
+   
+}
+header button:hover{
+    background-color: black;
+    color: white;
+}
+
+.featuresBox{
+    background: #0f0f1b;
+    padding: 50px;
+        margin: 0 auto;
+        position: relative;
+        top: -40px;
+    margin-top: 40px;
+
+
+
+}
+.featureCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color:#242486;
+    color: white;
+    max-width: 450px;
+    margin: 0 auto;
+    padding-top:40px ;
+    padding-bottom: 30px;
+margin-bottom:80px
+
+}
+.featureCard h1{
+    background-color:#242486;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+li{
+    background-color: #242486;
+font-size: 15px;
+list-style: none;
+position: relative;
+
+line-height: 25px;
+text-align: center;
+
+
+}
+.contactBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+
+}
+.contactBox h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+ 
+
+}
+.contactBox p{
+    font-size: 18px;
+    max-width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+
+}
